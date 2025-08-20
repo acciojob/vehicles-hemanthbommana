@@ -73,4 +73,9 @@ public class Car extends Vehicle {
     public int getDirection(){
         return super.getCurrentDirection();
     }
+    // @Override
+    // public void move(int speed, int direction) {
+    //     // TODO Auto-generated method stub
+    //     super.move(speed, direction);
+    // }
 }
