@@ -23,6 +23,39 @@ public class Car extends Vehicle {
         super(name);
         this.isManual = isManual;
     }
+    public int getWheels() {
+        return wheels;
+    }
+    public String getType() {
+        return type;
+    }
+    public int getDoors() {
+        return doors;
+    }
+    public int getCurrentGear() {
+        return currentGear;
+    }
+    @Override
+    public int getCurrentDirection() {
+        // TODO Auto-generated method stub
+        return super.getCurrentDirection();
+    }
+    public int getSeats() {
+        return seats;
+    }
+    @Override
+    public int getCurrentSpeed() {
+        // TODO Auto-generated method stub
+        return super.getCurrentSpeed();
+    }
+    @Override
+    public String getName() {
+        // TODO Auto-generated method stub
+        return super.getName();
+    }
+    public int getGears() {
+        return gears;
+    }
     public void changeGear(int newGear){
         this.currentGear = newGear;
         System.out.println("changeGear method called - The gear is changed to: " + newGear);
