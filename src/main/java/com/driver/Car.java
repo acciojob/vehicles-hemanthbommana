@@ -60,7 +60,9 @@ public class Car extends Vehicle {
         this.currentGear = newGear;
         System.out.println("changeGear method called - The gear is changed to: " + newGear);
     }
-
+    public boolean isManual() {
+        return isManual;
+    }
     public void changeSpeed(int newSpeed, int newDirection){
 
         setCurrentSpeed(newSpeed);
