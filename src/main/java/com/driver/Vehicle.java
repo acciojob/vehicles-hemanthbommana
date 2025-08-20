@@ -8,8 +8,8 @@ public class Vehicle {
 
     public Vehicle(String name) {
         this.name = name;
-        currentDirection = 0;
-        currentDirection = 0;
+        this.currentSpeed = 0;
+        this.currentDirection = 0;
     }
     public int getCurrentDirection(){
         return this.currentDirection;
