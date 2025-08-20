@@ -24,7 +24,7 @@ public class Car extends Vehicle {
         this.wheels = 4;
         this.doors = 4;
         this.gears = 5;
-        this.type = "Sedan"; // or "Car"
+        this.type = "Car"; // or "Car"
         this.seats = 5;
         this.currentGear = 1;
         this.isManual = isManual;
@@ -64,7 +64,7 @@ public class Car extends Vehicle {
     }
     public void changeGear(int newGear){
         this.currentGear = newGear;
-       // System.out.println("changeGear method called - The gear is changed to: " + newGear);
+        System.out.println("changeGear method called - The gear is changed to: " + newGear);
     }
     public boolean isManual() {
         return isManual;
@@ -74,7 +74,7 @@ public class Car extends Vehicle {
         move(newSpeed, newDirection);
         
 
-        //System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
+        System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
     }
     public int getDirection(){
         return super.getCurrentDirection();
